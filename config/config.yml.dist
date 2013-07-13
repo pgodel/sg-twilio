@@ -1,0 +1,8 @@
+sg_api:
+  key: your_api_key
+  secret: your_api_secret
+
+twilio:
+  number: twilio_number
+  sid: twilio_sid
+  token: twilio_token

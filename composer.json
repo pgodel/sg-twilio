@@ -1,0 +1,21 @@
+{
+    "name": "pgodel/sg-twilio",
+    "description": "Twilio integration with ServerGrove Control Panel to control a server.",
+    "require": {
+        "silex/silex": "1.*",
+        "servergrove/sgcli": "dev-master",
+        "symfony/yaml": "2.3.*",
+        "twilio/sdk": "dev-master"
+    },
+    "require-dev": {
+        "raulfraile/ladybug": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pablo Godel",
+            "email": "pgodel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
