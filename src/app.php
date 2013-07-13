@@ -77,7 +77,7 @@ $app->get('/server/{number}/{serverId}', function ($number, $serverId) use ($app
         'timeout' => 30,
     ));
 
-    $gather->say('You have selected server ' . $s['hostname'] . ' and the status is running. Select 1 to stop, 2 to start, 3 to restart, 4 to list the domains in the server');
+    $gather->say('You have selected server ' . $s['hostname'] . '. Select 1 to stop, 2 to start, 3 to restart, 4 to list the domains in the server');
     $rsp = new Response($response, 200, array(
         'content-type' => 'application/xml'
     ));
